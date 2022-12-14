@@ -8,5 +8,17 @@ else:
 first_name = "Neeraj"
 last_name = "Kumar"
 
-print("The name of the author is {} and his surname is {}".format(first_name, last_name))
-print("This is different way of string formatting by {first} whose surname is {last}".format(first=first_name, last=last_name))
+print("The name of the author is {} and his surname is {}".format(
+    first_name, last_name))
+print("This is different way of string formatting by {first} whose surname is {last}".format(
+    first=first_name, last=last_name))
+
+my_str = "Neeraj Kumar"
+print(my_str.isalnum())
+
+lst = []
+lst.append("This is appended")
+print(lst)
+
+lst.extend([1, 2, 3])
+print(lst)
